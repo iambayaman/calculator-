@@ -1,0 +1,110 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Play', sans-serif;
+    color: #566965;
+}
+
+body {
+    background: linear-gradient(280deg, #dd07c0, #c8fa58);
+    position: relative;
+    padding-top: 100px;
+
+}
+
+.js-calculator {
+    background: #051241;
+    border: 2px solid #c000ff;
+    border-radius: 10px;
+    width: 440px;
+    height: 435px;
+    margin: 40px auto;
+
+
+}
+
+.cale-head {
+    border-top: 4px solid #ffffff;
+    border-radius: 5px;
+    width: 265px;
+    height: 65px;
+    margin: 30px auto;
+    padding-right: 5px;
+    background: #ffffff;
+    text-align: right;
+    font-size: 53px;
+}
+
+
+.calc-container{
+    width: 290px;
+    margin: 20px auto;
+    position: relative;
+}
+
+button {
+    border-radius: 5px;
+    background: #ff0000;
+    box-shadow: 0 4px graytext;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover{
+    cursor: pointer;
+    background: #ffffff;
+    box-shadow: 0 4px #e908dd;
+}
+
+.calc > span {
+    margin: 6px 10px 11px 15px;
+}
+
+.button .clear {
+    width: 50px;
+    height: 45px;
+    padding: 8px;
+    margin: 5px 0 0 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main > span {
+    width: 60px;
+    height: 60px;
+    padding: 15px;
+    margin: 5px 3px 5px 5px;
+    display: inline-block;
+}
+
+.side {
+    width: 70px;
+    height: 280px;
+    position: absolute;
+    right: 0;
+    display: grid;
+    margin-right: 10px;
+
+}
+.main{
+    width: 190px;
+    height: 280px;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 10px;
+}
+.btn{
+    font-size: 20px;
+}
+
+.viewer{
+    font-size: 50px;
+}
+
+
+
+
